@@ -7,8 +7,8 @@
 - [Run the pipeline](#Runthepipeline)
 - [Output](#Output)
 - [Dependencies](#Dependencies)
-- [Additional Notes](#AdditionalNotes)
-- [Clone the repository](#Clonetherepository)
+- [Additional Notes](#Additional-Notes)
+- [Clone the repository](#Clone-the-repository)
 
 
 ## Purpose
