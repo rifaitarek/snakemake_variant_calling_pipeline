@@ -24,10 +24,10 @@ Create necessary directories: 010.fastqc, 020.bwa, 030.samtools, 040.cleaned, an
 
 ## Configure the pipeline
 
-**genome_db**: Replace with the path to your reference genome.
-**snpeff_jar**: Replace with the path to the SnpEff JAR file.
-**snpeff_genome**: Set the appropriate SnpEff genome version.
-**snpeff_db_folder**: Replace with the path to the SnpEff database folder.
+- **genome_db**: Replace with the path to your reference genome.
+- **snpeff_jar**: Replace with the path to the SnpEff JAR file.
+- **snpeff_genome**: Set the appropriate SnpEff genome version.
+- **snpeff_db_folder**: Replace with the path to the SnpEff database folder.
 
 
 ## Run the pipeline
@@ -37,11 +37,11 @@ bashCopysnakemake
 ## Output
 The pipeline will generate the following output files in the specified directories:
 
-**FASTQC**: Summary reports and quality control plots for each FASTQ file.
-**BWA**: Aligned BAM files and their indices.
-**Samtools**: Variant call VCF files.
-**Cleaned**: Filtered and normalized VCF files.
-**SnpEff**: Annotated VCF files, along with summary and gene annotation reports.
+- **FASTQC**: Summary reports and quality control plots for each FASTQ file.
+- **BWA**: Aligned BAM files and their indices.
+- **Samtools**: Variant call VCF files.
+- **Cleaned**: Filtered and normalized VCF files.
+- **SnpEff**: Annotated VCF files, along with summary and gene annotation reports.
 
 
 ## Dependencies
