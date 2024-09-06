@@ -19,7 +19,6 @@ This Snakemake pipeline automates the process of variant calling from FASTQ file
 ## Data
 
 Ensure your FASTQ files are organized in a directory named 000.fastq.
-Create necessary directories: 010.fastqc, 020.bwa, 030.samtools, 040.cleaned, and 050.snpeff.
 
 
 ## Configure the pipeline
@@ -31,7 +30,8 @@ Create necessary directories: 010.fastqc, 020.bwa, 030.samtools, 040.cleaned, an
 
 
 ## Run the pipeline
-bashCopysnakemake
+'''bash
+snakemake -n
 
 
 ## Output
@@ -62,4 +62,4 @@ For more information on Snakemake and its features, refer to the official docume
 ## Clone the repository
 
 ```bash
-bashCopygit clone https://github.com/your_username/snakemake_variant_calling_pipeline
+clone https://github.com/your_username/snakemake_variant_calling_pipeline
