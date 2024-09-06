@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Purpose](#Purpose)
 - [Data](#Data)
-- [Configure the pipeline](#Configurethepipeline)
+- [Configure the pipeline](#Configure-the-pipeline)
 - [Run the pipeline](#Runthepipeline)
 - [Output](#Output)
 - [Dependencies](#Dependencies)
