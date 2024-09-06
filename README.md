@@ -32,7 +32,7 @@ Ensure your FASTQ files are organized in a directory named 000.fastq.
 ## Run the pipeline
 ```bash
 snakemake -n
-
+```
 
 ## Output
 The pipeline will generate the following output files in the specified directories:
