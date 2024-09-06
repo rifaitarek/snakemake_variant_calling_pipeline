@@ -14,7 +14,6 @@
 ## Purpose
 
 This Snakemake pipeline automates the process of variant calling from FASTQ files, using tools like BWA, Samtools, and SnpEff. It incorporates quality control steps using FastQC and variant filtering and annotation.
-Usage
 
 
 ## Data
